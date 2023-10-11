@@ -1,0 +1,4 @@
+﻿  9.cpp
+U:\hlocal\hlocalgonzalo\9\9.cpp(42,14): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+U:\hlocal\hlocalgonzalo\9\9.cpp(48,13): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  9.vcxproj -> U:\hlocal\hlocalgonzalo\9\x64\Debug\9.exe

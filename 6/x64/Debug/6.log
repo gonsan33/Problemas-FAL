@@ -1,0 +1,14 @@
+﻿  6.cpp
+C:\software\programacion\MSVStudio2022\VC\Tools\MSVC\14.36.32532\include\utility(247,54): warning C4267: 'inicializando': conversión de 'size_t' a '_Ty2'; posible pérdida de datos
+          with
+          [
+              _Ty2=int
+          ]
+U:\hlocal\hlocalgonzalo\6\6.cpp(30,5): message : Vea la referencia a la creación de una instancia de la función plantilla "std::pair<__int64,int>::pair<__int64&,unsigned __int64,0>(_Other1,_Other2 &&) noexcept" que se está compilando
+          with
+          [
+              _Other1=__int64 &,
+              _Other2=unsigned __int64
+          ]
+U:\hlocal\hlocalgonzalo\6\6.cpp(30,5): message : vea la primera referencia a “std::pair<__int64,int>::pair” en “resolver”
+  6.vcxproj -> U:\hlocal\hlocalgonzalo\6\x64\Debug\6.exe

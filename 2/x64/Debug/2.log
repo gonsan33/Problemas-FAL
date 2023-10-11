@@ -1,0 +1,4 @@
+﻿  2.cpp
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\2\2.cpp(17,11): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\2\2.cpp(21,26): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos
+  2.vcxproj -> F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\2\x64\Debug\2.exe
