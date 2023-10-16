@@ -4,6 +4,9 @@ using namespace std;
 //Gonzalo Sánchez Montesinos 
 //DG29
 
+
+//Coste lineal en el número de etapas. 
+
 bool resuelveCasos() {
 	int tam = 0; 
 	std::cin >> tam; 
@@ -24,7 +27,7 @@ bool resuelveCasos() {
 			if (d <= v.size() && d>0) {
 				std::cout << v[d - 1] << '\n';
 			}
-			else std::cout << "0\n"; 
+			else std::cout << 0 << '\n';
 		}
 		std::cout << "---\n"; 
 		return true; 
