@@ -1,0 +1,3 @@
+﻿  31cpp.cpp
+U:\hlocal\hlocalgonzalo\31\31cpp.cpp(30,8): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  31.vcxproj -> U:\hlocal\hlocalgonzalo\31\x64\Debug\31.exe
