@@ -1,0 +1,12 @@
+﻿  44.cpp
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\44\44.cpp(12,54): warning C4244: '=': conversión de 'lli' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\44\44.cpp(13,54): warning C4244: '=': conversión de 'lli' a '_Ty'; posible pérdida de datos
+          with
+          [
+              _Ty=int
+          ]
+  44.vcxproj -> F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\44\x64\Debug\44.exe

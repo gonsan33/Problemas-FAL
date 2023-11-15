@@ -5,26 +5,34 @@
 using namespace std;
 using lli = long long int;
 
-lli sinUnos(lli n) {
-	if (n == 0) return 1;
-	else if (n < 10) return n; 
+pair<lli, bool> sinUnos(lli n) {
+	if (n == 0) return { 1,false };
+	else if (n < 10) return { n, n == 1 }; 
 	else {
-		int aux = 0; 
-		switch (n % 10) {
-		case 0: aux = 0; break; 
-		case 1: aux = 0; break; 
-		default: aux = 9 - n % 10; break; 
+		auto aux = sinUnos(n / 10); 
+		if (aux.second) {
+			return { aux.first * 9,true }; 
 		}
-		return sinUnos(n / 10) * 9 - aux; 
+		else {
+			auto aux2 = sinUnos(n % 10); //Coste constante
+			return { (aux.first - 1) * 9 + aux2.first, aux2.second }; 
+		}
 	}
+}
+
+
+
+bool noUnos(int n) {
+	if (n < 10) return n != 1; 
+	return n % 10 != 1 && noUnos(n / 10); 
 }
 
 bool resuelveCasos() {
 	lli n = 0;
 	std::cin >> n;
 	if (!cin) return false; 
-	else {
-		std::cout << sinUnos(n) << '\n';
+	else {		
+		std::cout << sinUnos(n).first  << '\n';
 		return true; 
 	}
 }

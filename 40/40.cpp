@@ -17,7 +17,7 @@ int f_nf(int a, int b) {
 }
 
 int f_f(int a, int b, int suma, int pot) {
-    if(b < 10) return ((a / 10) * pot + (a % 10 + b) % 10) * pot+ suma;
+    if (a < 10 && b < 10) return ((a + b) % 10) * pot + suma; 
     else {
         return f_f(a / 10, b / 10, ((a % 10 + b % 10) % 10) * pot +  suma, 10*pot); 
     }

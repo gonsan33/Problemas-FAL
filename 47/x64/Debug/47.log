@@ -1,0 +1,4 @@
+﻿  47.cpp
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\47\47.cpp(43,56): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\47\47.cpp(44,56): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  47.vcxproj -> F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\47\x64\Debug\47.exe
