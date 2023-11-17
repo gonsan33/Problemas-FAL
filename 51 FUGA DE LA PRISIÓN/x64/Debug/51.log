@@ -1,0 +1,4 @@
+﻿  51.cpp
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\51\51.cpp(25,42): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\51\51.cpp(19,2): warning C4102: 'std': etiqueta sin referencia
+  51.vcxproj -> F:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\51\x64\Debug\51 FUGA DE LA PRISIÓN.exe
