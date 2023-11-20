@@ -1,0 +1,4 @@
+﻿  58.cpp
+E:\58 VECTOR PARCIALMENTE ORDENADO\58.cpp(39,27): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+E:\58 VECTOR PARCIALMENTE ORDENADO\58.cpp(31,8): warning C4101: 'm': variable local sin referencia
+  58 VECTOR PARCIALMENTE ORDENADO.vcxproj -> E:\58 VECTOR PARCIALMENTE ORDENADO\x64\Debug\58 VECTOR PARCIALMENTE ORDENADO.exe
