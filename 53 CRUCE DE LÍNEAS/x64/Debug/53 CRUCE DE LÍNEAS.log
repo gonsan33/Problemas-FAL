@@ -1,0 +1,4 @@
+﻿  53.cpp
+U:\hlocal\hlocalgonzalo\53 CRUCE DE LÍNEAS\53.cpp(32,34): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+U:\hlocal\hlocalgonzalo\53 CRUCE DE LÍNEAS\53.cpp(36): warning C4715: 'resuelveCasos': no todas las rutas de acceso de control devuelven un valor
+  53 CRUCE DE LÍNEAS.vcxproj -> U:\hlocal\hlocalgonzalo\53 CRUCE DE LÍNEAS\x64\Debug\53 CRUCE DE LÍNEAS.exe

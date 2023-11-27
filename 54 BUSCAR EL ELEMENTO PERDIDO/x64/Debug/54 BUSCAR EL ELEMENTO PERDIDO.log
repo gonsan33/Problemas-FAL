@@ -1,0 +1,3 @@
+﻿  54.cpp
+U:\hlocal\hlocalgonzalo\54 BUSCAR EL ELEMENTO PERDIDO\54.cpp(23,40): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  54 BUSCAR EL ELEMENTO PERDIDO.vcxproj -> U:\hlocal\hlocalgonzalo\54 BUSCAR EL ELEMENTO PERDIDO\x64\Debug\54 BUSCAR EL ELEMENTO PERDIDO.exe
