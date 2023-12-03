@@ -1,0 +1,4 @@
+﻿  48.cpp
+G:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\48 QUEBRADA\48.cpp(36,34): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+G:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\48 QUEBRADA\48.cpp(36,58): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos
+  48.vcxproj -> G:\UNIVERSIDAD\2º CURSO\FUNDAMENTOS DE ALGORITMIA\PROBLEMAS JUEZ\Problemas-FAL\48 QUEBRADA\x64\Debug\48.exe

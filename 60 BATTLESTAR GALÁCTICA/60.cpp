@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 using namespace std; 
 
 int mergesort(vector<int>& v, int ini, int fin) {
@@ -14,6 +15,28 @@ int mergesort(vector<int>& v, int ini, int fin) {
 
 		int i = ini; 
 		int j = mitad + 1; 
+		while (i < mitad + 1 && j < fin) {
+			if (v[i] < v[j]) ++i; 
+			else { //v[i] > v[j]
+				trasposiciones += mitad - (i - ini); 
+				++j; 
+			}
+		}
+		while (i < mitad + 1) {
+			if (v[i] > v[j]) {
+				trasposiciones += mitad - (i - ini); 
+				++i; 
+			}
+		}
+
+		while (j < fin) {
+			if (v[i] > v[j]) {
+				trasposiciones += mitad - (i - ini);
+				++j; 
+			}
+		}
+		inplace_merge(v.begin() + ini, v.begin() + mitad + 1, v.begin() + fin); 
+		/*
 		int k = ini; 
 		int trasposiciones_transitorias = 0; 
 		vector<int> aux(v.size()); 
@@ -47,6 +70,10 @@ int mergesort(vector<int>& v, int ini, int fin) {
 		for (int r = ini; r < fin; ++r) {
 			v[r] = aux[r]; 
 		}
+		*/
+
+
+		
 		return trasposiciones;
 	}
 }
@@ -58,7 +85,8 @@ bool resuelveCasos() {
 	if (!cin) return false; 
 	vector<int> v(n); 
 	for (auto& x : v) std::cin >> x; 
-	std::cout << mergesort(v, 0, v.size())<<'\n';
+	if (n == 0) std::cout << 0 << '\n'; 
+	else std::cout << mergesort(v, 0, v.size())<<'\n';
 	return true; 
 }
 

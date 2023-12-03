@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "65 Generar todas las variaciones con repetión de un conjunto de elementos", "65 Generar todas las variaciones con repetión de un conjunto de elementos.vcxproj", "{A9272E2E-1716-4198-8B38-F34F6C891175}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Debug|x64.ActiveCfg = Debug|x64
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Debug|x64.Build.0 = Debug|x64
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Debug|x86.ActiveCfg = Debug|Win32
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Debug|x86.Build.0 = Debug|Win32
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Release|x64.ActiveCfg = Release|x64
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Release|x64.Build.0 = Release|x64
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Release|x86.ActiveCfg = Release|Win32
+		{A9272E2E-1716-4198-8B38-F34F6C891175}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {419C6A2E-A6DA-4E13-8275-40A886C57128}
+	EndGlobalSection
+EndGlobal
