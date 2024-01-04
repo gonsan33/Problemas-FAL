@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\Doble Grado Matemáticas - Ing Informática UCM\23-24\Fundamentos de algoritmia\Problemas\FAL - Problema 80\Source.cpp(72,13): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  FAL - Problema 80.vcxproj -> D:\Doble Grado Matemáticas - Ing Informática UCM\23-24\Fundamentos de algoritmia\Problemas\FAL - Problema 80\x64\Debug\FAL - Problema 80.exe
